@@ -9,6 +9,8 @@
   margin: auto;
 }
 
+/* Navigation */
+
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -39,10 +41,17 @@
   border-radius: 10px;
 }
 
+/* Hero Banner Section  */
+
 .hero-container {
   position: relative;
   margin-top: 2rem;
 }
+
+/* left side sectiom */
+
+/* Patterns */
+
 .square img {
   width: 57%;
 }
@@ -59,6 +68,9 @@
   position: absolute;
   top: 3rem;
 }
+
+/* Star */
+
 .star {
   position: absolute;
   right: 3rem;
@@ -67,6 +79,9 @@
 .star img {
   width: 50px;
 }
+
+/* Globe */
+
 .globe {
   position: absolute;
   left: 43rem;
@@ -74,6 +89,8 @@
 .globe img {
   width: 70%;
 }
+
+/* right sides */
 .hero-container-right {
   display: flex;
   flex-direction: column;
@@ -85,34 +102,29 @@
   width: 70%;
   margin: auto 0 auto auto;
 }
+
+/* heading */
+
 .hero-heading {
-  position: relative;
   font-size: 3.8rem;
   font-weight: 600;
-  top: 10px;
+  margin-top: 2rem;
 }
 
 .hero-description {
-  position: relative;
-  top: 1rem;
   width: 80%;
   margin: auto;
 }
 
 .button-email {
-  position: relative;
-  top: 2rem;
-  right: 0;
-  left: 3rem;
+  margin-top: 1rem;
   padding: 2px 15px;
   background-color: transparent;
   border-radius: 6px;
   font-size: 1.2rem;
+  margin-right: 1rem;
 }
 .button-join {
-  position: relative;
-  top: 5rem;
-  right: 5rem;
   background-color: black;
   color: white;
   padding: 5px;
@@ -121,19 +133,18 @@
 }
 
 .contact-heading {
-  position: relative;
-  top: 7rem;
+  margin-top: 1rem;
   right: 0rem;
 }
 .icons {
-  position: relative;
-  top: 8rem;
-  right: 0rem;
+  margin-top: 10px;
 }
 .icons img {
   margin-left: 10px;
   width: 2rem;
 }
+
+/* media queries */
 
 @media (max-width: 1100px) {
   .hero-heading {
